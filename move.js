@@ -25,5 +25,5 @@ for (const element of rowsToBeDeleted) {
 
 targetSheet.sort(1);
 sourceSheet.sort(1);
-SpreadsheetApp.getActive().toast("Выполнено!");
+SpreadsheetApp.getActive().toast("Success!");
     }
